@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    h1 {
+        @apply text-5xl font-grapenuts;
+    }
+
+    h2 {
+        @apply text-3xl font-grapenuts;
+    }
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
