@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./*.html"], // Ensure it includes all HTML files
+  content: ["./*.html", "./src/**/*.{js,ts,jsx,tsx}"], // Ensure it includes all HTML files
   theme: {
     extend: {
       colors: {
@@ -8,7 +8,8 @@ module.exports = {
       },
       fontFamily: {
         exo2: ["Exo 2", "sans-serif"],
-        grapenuts: ["Grape Nuts", "cursive"], // Add the font
+        grapenuts: ["Grape Nuts", "cursive"],
+        firacode: ["Fira Code", "monospace"],
       },
     },
   },
